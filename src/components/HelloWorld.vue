@@ -12,6 +12,8 @@ defineProps({
         <p class="classe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea incidunt tempore nesciunt ipsam totam
             nihil, quos voluptas ipsa optio deserunt soluta commodi a itaque sunt quidem quas non fugiat voluptatum.</p>
 
+        <img src="@/assets/img/logo.svg" width="125" height="125" alt="Vue logo" class="logo" />
+
         <h1 class="green">{{ msg }}</h1>
         <h3>
             You’ve successfully created a project with

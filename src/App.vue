@@ -5,7 +5,7 @@ import TheWelcome from './components/TheWelcome.vue';
 
 <template>
     <header>
-        <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
+        <img alt="Vue logo" class="logo" src="./assets/img/logo.svg" width="125" height="125" />
 
         <p class="classe">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate dignissimos facilis quod
             reprehenderit sit, ea animi, fugiat vel voluptatum recusandae esse consequatur possimus repudiandae quaerat
@@ -13,10 +13,14 @@ import TheWelcome from './components/TheWelcome.vue';
 
         <div class="wrapper">
             <HelloWorld msg="You did it!" />
+            <!-- <hello-world></hello-world>
+            <HelloWorld></HelloWorld> -->
         </div>
     </header>
 
     <main>
+        <TheWelcome />
+        <TheWelcome />
         <TheWelcome />
     </main>
 </template>
