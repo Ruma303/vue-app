@@ -10,11 +10,11 @@ import TheWelcome from './components/TheWelcome.vue';
         <p class="classe">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate dignissimos facilis quod
             reprehenderit sit, ea animi, fugiat vel voluptatum recusandae esse consequatur possimus repudiandae quaerat
             architecto dicta ipsum perferendis inventore.</p>
+
         <div class="wrapper">
             <HelloWorld msg="You did it!" />
         </div>
     </header>
-
 
     <main>
         <TheWelcome />

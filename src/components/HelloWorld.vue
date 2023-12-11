@@ -9,7 +9,8 @@ defineProps({
 
 <template>
     <div class="greetings">
-        <p class="classe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea incidunt tempore nesciunt ipsam totam nihil, quos voluptas ipsa optio deserunt soluta commodi a itaque sunt quidem quas non fugiat voluptatum.</p>
+        <p class="classe">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea incidunt tempore nesciunt ipsam totam
+            nihil, quos voluptas ipsa optio deserunt soluta commodi a itaque sunt quidem quas non fugiat voluptatum.</p>
 
         <h1 class="green">{{ msg }}</h1>
         <h3>
@@ -20,13 +21,14 @@ defineProps({
     </div>
 </template>
 
-    <style scoped lang="scss">
-    .greetings {
-        background-color: grey;
-        & .classe {
-            color: limegreen;
-        }
+<style scoped lang="scss">
+.greetings {
+    background-color: grey;
+
+    & .classe {
+        color: limegreen;
     }
+}
 
 h1 {
     font-weight: 500;
